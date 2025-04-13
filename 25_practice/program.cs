@@ -12,5 +12,5 @@ namespace _25_practice
             //MultiplicationTable.Run();
             Favorite.Run();
         }
-    }
+    } 
 }

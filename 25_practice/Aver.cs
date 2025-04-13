@@ -18,7 +18,7 @@ namespace _25_practice
             for (int i = 0; i < scores.Length; i++)
             {
                 sum += scores[i];
-            }
+            } 
 
             double average = (double)sum / scores.Length;
             Console.WriteLine($"평균 점수는 {average}점입니다.");

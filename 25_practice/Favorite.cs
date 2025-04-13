@@ -22,7 +22,7 @@ namespace _25_practice
             bool foundApple = false;
 
             foreach (string fruit in fruits)
-            {
+            { 
                 if (fruit.Contains("사과"))
                 {
                     if (!foundApple)

@@ -14,7 +14,7 @@ namespace _25_practice
 
             Console.Write("찾고 싶은 이름을 입력하세요: ");
             string input = Console.ReadLine();
-
+             
             bool found = false;
             foreach (string name in names)
             {

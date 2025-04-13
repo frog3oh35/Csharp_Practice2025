@@ -19,6 +19,6 @@ namespace _25_practice
                 }
                 Console.WriteLine(); //줄바꿈
             }
-        }
+        } 
     }
 }
