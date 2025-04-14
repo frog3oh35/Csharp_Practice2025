@@ -1,0 +1,53 @@
+실습 3 (StudentList) 에서
+
+class Student(string name, int grade)
+ > 생성자 (Constructor) = 생성자 함수
+ > void나 int같은 반환형이 없어야 함
+ > this.~ 를 통해 이 객체 안에 필드(name, grade)를 채워 준다
+
+Add()는 C#에서 리스트 자료형 안에 값을 넣는 함수 (기본 라이브러리)
+
+for문에서...
+ >
+ foreach(Student s in students)
+ {
+	s.Print();
+ }
+
+ > students 리스트에 있는 모든 Student 객체를 하나씩 s라고 불러가며 반복
+ > Student(붕어빵틀) s(붕어빵 틀로만든 붕빵들(students)의 하나씩)
+ > in students(붕빵틀로 만든 붕빵)
+
+
+
+
+ -----------------------------------------------------
+
+
+
+
+ 실습 4 (TeamMeber) 에서
+* Main 중 new Team("DevTeam") < 왜 문자열을 넣는가?
+	> DevTeam이라는 이름을 가진 객체를 만들겠다는 뜻
+	> 클래스 메서드 안의 public Team (string name에서) 인자를 받아옴
+	> string name = DevTeam을 인자로 받아오는 것
+
+* private와 public이 섞인 이유
+	public Team(string name)
+	private clss Member
+	> 이렇게 하면 외부에서는 Team만 만들 수 있고, Memb
+
+
+* public Team(string name)
+	{
+		teamName (클래스 속성) = name (매개변수);
+	}
+	> this를 생략하는 이유는 이름이 다르니 헷갈릴 일이없다
+
+*** 한 줄 한 줄 코드의 개발적의미를 물어볼때
+	" semantic role " 은 무엇인지 라고 물어보자
+	= 이 코드의 역할이 뭐에요?
+
+*** 리팩토링이란?
+	= 기능은 그대로, 코드만 더 좋게!
+	= 실습 이후에 따로 리팩토링 코드 짜는 연습 하기
