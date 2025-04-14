@@ -51,3 +51,27 @@ for문에서...
 *** 리팩토링이란?
 	= 기능은 그대로, 코드만 더 좋게!
 	= 실습 이후에 따로 리팩토링 코드 짜는 연습 하기
+
+
+
+-----------------------------------------
+
+ 
+
+ 실습 5 (RandomGame) 에서
+
+* new RandomGame()은 게임 붕어빵을 만드는 거임.
+	> Random ramdom - new Ramdom();은 그 붕어빵 안에 들어갈
+	랜덤 생성기 속재료를 만드는 것!
+
+* 클래스 메서드 안에서 private인 이유
+	> 게임을 만드는 사람만 알고 있어야 할 도구이기 때문.
+
+
+* Main에서의 RandomGame game = new RandomGame();
+	> RandomGame 클래스의 인스턴스 생성
+	> 게임을 한 판 시작하려고 게임 셋팅을 하는 것
+
+* class 메서드에서의 Random random = new Random();
+	> random이라는 필드 = RandomGame 클래스 내부에서만
+	사용할 수 있는 랜덤 숫자 생성기
