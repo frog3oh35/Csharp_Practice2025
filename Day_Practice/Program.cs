@@ -61,9 +61,11 @@ namespace Day_0414_practice
             team.AddMember("정훈");             
              */
 
+
+            /*
             RandomGame game = new RandomGame();
             game.Play();
-
+            */
 
         }
     }

@@ -75,3 +75,18 @@ for문에서...
 * class 메서드에서의 Random random = new Random();
 	> random이라는 필드 = RandomGame 클래스 내부에서만
 	사용할 수 있는 랜덤 숫자 생성기
+
+
+-------------------------------------------
+
+
+ 내일 별도로 공부할 것
+* has-a vs is-a 차이
+* OOP 개념 (concepts), OOP 용어 (Terminology)
+
+Concepts(개념) 이론적인 아이디어/원리 자체에 초점
+	> 상속은 객체지향의 핵심 개념이다.
+	> 상속, 캡슐화, 다형성, 추상화 같은 근본 원리들
+Terminology(용어) 그 개념을 표현하는 단어.기호.이름에 초점
+	> 상속은 영어로 inheritance라고 불린다.
+	> 객체, 클래스, 인스턴스 같은 용어들
